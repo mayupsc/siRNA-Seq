@@ -1,4 +1,4 @@
-# siRNA-Seq
+# smRNA-Seq
 ## small RNA Seq workflow (fastqc trimmomatic bowtie samtools bedtools )
 
 ### 1.File Preparation
