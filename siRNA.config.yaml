@@ -1,0 +1,45 @@
+species: Solanum Lycopersicum
+genomes: SL2.50
+seq_info:
+  type: siRNA-Seq
+  stranded: yes
+  mode: SE
+  replicate: 3
+
+path: /home/galaxy/siRNA-Seq/fastq/
+
+conda_path: /home/galaxy/miniconda2/envs/gmatic/bin/
+samples:
+  - WT_1
+  - WT_2
+  - WT_3
+  - CRTR_1
+  - CRTR_2
+  - CRTR_3
+  - dml1_1
+  - dml1_2
+  - dml1_3
+  - dml2_1
+  - dml2_2
+  - dml2_3
+
+groups:
+  - WT
+  - WT
+  - WT
+  - CRTR
+  - CRTR
+  - CRTR
+  - dml1
+  - dml1
+  - dml1
+  - dml2
+  - dml2
+  - dml2
+
+script_path: /home/galaxy/siRNA-Seq/script
+
+rRNA_tRNA_snRNA_snoRNA_bed: /home/galaxy/genome/SL2.5/tRNA_rRNA_snRNA_snoRNA.bed
+
+bowtie_index: /home/galaxy/genome/SL2.5/bowtie_index/SL2.5
+
